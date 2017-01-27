@@ -1,0 +1,53 @@
+body {
+
+	font-family: 'calibri';
+
+}
+
+header, footer {
+    padding: 1em;
+	background-color: black;
+	color: white;
+    clear: left;
+    text-align: center;
+	height: 125px;
+	width: 100%
+}
+	
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: square;
+    padding: 0;
+}
+
+main {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+ul {
+	list-style-type: square;
+}
+
+img {
+	border-radius: 50%;
+	height: 250;
+	weight: 250;
+}
+
+table, table td, table th {
+	border-collapse: collapse;
+	width: 75%;
+	padding:6px;
+	border: 1px solid #ddd;
+	text-align: center;
+}
+
